@@ -1,3 +1,4 @@
+const Discord = require("discord.js");
 const DiscordMusicBot = require("./structures/DiscordMusicBot");
 const client = new DiscordMusicBot();
 
