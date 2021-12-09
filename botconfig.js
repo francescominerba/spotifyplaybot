@@ -2,7 +2,7 @@ module.exports = {
   Admins: ["UserID", "UserID"], //Admins of the bot
   ExpressServer: true, //If you wanted to make the website run or not
   DefaultPrefix: process.env.Prefix || ">", //Default prefix, Server Admins can change the prefix
-  Port: 3000, //Which port website gonna be hosted
+  Port: 80, //Which port website gonna be hosted
   SupportServer: "https://discord.gg/sbySMS7m3v", //Support Server Link
   Token: process.env.Token || "", //Discord Bot Token
   ClientID: process.env.Discord_ClientID || "", //Discord Client ID
@@ -18,7 +18,7 @@ module.exports = {
   EmbedColor: "RANDOM", //Color of most embeds | Dont edit unless you want a specific color instead of a random one each time
   Permissions: 2205281600, //Bot Inviting Permissions
   Website: process.env.Website || "http://changeme", //Website where it is hosted at includes http or https || Use "0.0.0.0" if you using Heroku || Do not include /api/callback. Just the website url. I.e. "https://foo.bar"
-  
+
   Presence: {
     status: "online", // You can show online, idle, and dnd
     name: "Music", // The message shown
@@ -36,7 +36,9 @@ module.exports = {
 
   //Please go to https://developer.spotify.com/dashboard/
   Spotify: {
-    ClientID: process.env.Spotify_ClientID || "", //Spotify Client ID
-    ClientSecret: process.env.Spotify_ClientSecret || "", //Spotify Client Secret
+    ClientID:
+      process.env.Spotify_ClientID || "270e2946066542c3b5d8f430812ef598", //Spotify Client ID
+    ClientSecret:
+      process.env.Spotify_ClientSecret || "c3bb691708d94c86b1be8e257c298d87", //Spotify Client Secret
   },
 };
