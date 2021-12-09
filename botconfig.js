@@ -2,11 +2,11 @@ module.exports = {
   Admins: ["UserID", "UserID"], //Admins of the bot
   ExpressServer: true, //If you wanted to make the website run or not
   DefaultPrefix: process.env.Prefix || ">", //Default prefix, Server Admins can change the prefix
-  Port: 80, //Which port website gonna be hosted
+  Port: 81, //Which port website gonna be hosted
   SupportServer: "https://discord.gg/sbySMS7m3v", //Support Server Link
   Token:
     process.env.Token ||
-    "OTE4MTc4ODkzMjA5NDAzNDEz.YbDeuw.QdbWFHNUeEBVwWTug7cMUznNE0U", //Discord Bot Token
+    "OTE4MTc4ODkzMjA5NDAzNDEz.YbDeuw.ri44fTXawotCD315NRMVw7VD5eg", //Discord Bot Token
   ClientID: process.env.Discord_ClientID || "918178893209403413", //Discord Client ID
   ClientSecret:
     process.env.Discord_ClientSecret || "xwyIVedUZI_VuBC5vErK4jKIkORZXZTV", //Discord Client Secret
@@ -20,7 +20,7 @@ module.exports = {
     "https://raw.githubusercontent.com/SudhanPlayz/Discord-MusicBot/master/assets/logo.gif", //URL of all embed author icons | Dont edit unless you dont need that Music CD Spining
   EmbedColor: "RANDOM", //Color of most embeds | Dont edit unless you want a specific color instead of a random one each time
   Permissions: 2205281600, //Bot Inviting Permissions
-  Website: process.env.Website || "http://0.0.0.0", //Website where it is hosted at includes http or https || Use "0.0.0.0" if you using Heroku || Do not include /api/callback. Just the website url. I.e. "https://foo.bar"
+  Website: process.env.Website || "https://0.0.0.0", //Website where it is hosted at includes http or https || Use "0.0.0.0" if you using Heroku || Do not include /api/callback. Just the website url. I.e. "https://foo.bar"
 
   Presence: {
     status: "online", // You can show online, idle, and sdnd
